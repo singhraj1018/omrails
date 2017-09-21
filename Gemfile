@@ -17,13 +17,10 @@ gem 'coffee-script-source', '1.8.0'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 group :development, :test do
-  gem 'spring'
   gem 'sqlite3'
 end
-
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 
 group :development, :test do
