@@ -17,12 +17,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'coffee-script-source', '1.8.0'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
-group :development, :test do
-  gem 'sqlite3'
-end
-group :production do
-  gem 'pg'
-end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
