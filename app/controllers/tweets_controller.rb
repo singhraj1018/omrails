@@ -6,9 +6,11 @@ class TweetsController < ApplicationController
   end
 
   # GET /tweets/1
+class TweetsController < ActieRecord::Base
   def show
     @tweet = Tweet.find(params[:id])
   end
+end
 
   # GET /tweets/new
   def new
